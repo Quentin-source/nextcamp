@@ -24,10 +24,9 @@ export async function getStaticProps() {
   const data = await fetch("http://www.boredapi.com/api/activity/");
   const quote = await data.json();
   return {
-    props: 
-        {
-        quote
-        },
+    props: {
+      quote,
+    },
     revalidate: 10,
   };
 }

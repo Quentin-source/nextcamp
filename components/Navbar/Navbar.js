@@ -22,6 +22,9 @@ const Navbar = (props) => {
         <Link href="/list">
           <a>Liste</a>
         </Link>
+        <Link href="/bitcoin">
+          <a>Bitcoin</a>
+        </Link>
       </nav>
       {props.children}
     </>

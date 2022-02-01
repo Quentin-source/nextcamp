@@ -1,9 +1,17 @@
+//setup
 import Head from "next/head";
 import Link from "next/link";
-import Navbar from "../components/Navbar/Navbar";
+import { useRouter } from "next/router";
+//Component
+
+//styles
 import styles from "../styles/Home.module.css";
 
 const Home = (props) => {
+
+    const router = useRouter();
+    console.log(router);
+    
 
   return (
     <>
