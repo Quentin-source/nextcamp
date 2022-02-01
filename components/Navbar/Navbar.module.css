@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  justify-content: center;
+  background: rgb(151, 151, 151);
+}
+
+.main a {
+  padding: 1em 4em;
+  color: white;
+  font-weight: 800;
+}

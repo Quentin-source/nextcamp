@@ -1,0 +1,6 @@
+.main tbody td{
+    border: solid 1px black;
+    padding :1em;
+    width: 200px;
+    margin : 0;
+}
